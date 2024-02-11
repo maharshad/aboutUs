@@ -1,0 +1,60 @@
+/* src/components/LandingPage.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color */
+body {
+  background-color: #1a1a1a;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Hero section styles */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.grid-col-item {
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.featured-info {
+  margin-top: 1rem;
+}
+
+/* Other section styles (customize as needed) */
+/* .about-section, .services-section, .contact-section, etc. */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
